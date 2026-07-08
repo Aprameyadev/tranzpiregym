@@ -1,0 +1,6 @@
+{
+  "name": "Tranzpire Gym",
+  "description": "A premium, luxury fitness experience combining state-of-the-art equipment, elite coaching, and a motivating community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

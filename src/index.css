@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-accent: #FF6B00;
+  --color-bg-dark: #0B0B0B;
+  --color-bg-card: #161616;
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 15px rgba(255, 107, 0, 0.4);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .accent-gradient {
+    background: linear-gradient(135deg, #FF6B00 0%, #ff8c00 100%);
+  }
+
+  .bg-glass {
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .bg-glass-orange {
+    background-color: rgba(255, 107, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 107, 0, 0.25);
+  }
+
+  .shadow-neon {
+    box-shadow: 0 0 25px rgba(255, 107, 0, 0.25);
+  }
+
+  .shadow-neon-hover:hover {
+    box-shadow: 0 0 35px rgba(255, 107, 0, 0.4);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B00;
+}
+
+/* Smooth scroll and global overrides */
+html {
+  scroll-behavior: smooth;
+  background-color: #0B0B0B;
+  color: #FFFFFF;
+}
+
+/* Hide navigation map scrollbars if needed */
+iframe {
+  border: 0;
+}
