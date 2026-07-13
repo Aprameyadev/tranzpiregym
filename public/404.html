@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Athletic State Not Found | Tranzpire Gym</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0B0B0B;
+      color: #FFFFFF;
+      font-family: 'Inter', sans-serif;
+    }
+    .font-heading {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+    .text-glow {
+      text-shadow: 0 0 15px rgba(255, 107, 0, 0.4);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .accent-gradient {
+      background: linear-gradient(135deg, #FF6B00 0%, #ff8c00 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6 relative overflow-hidden selection:bg-[#FF6B00] selection:text-white">
+
+  <!-- Background Orbs -->
+  <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+    <div class="absolute top-[20%] left-[10%] w-[250px] h-[250px] bg-[#FF6B00]/5 rounded-full blur-[80px]"></div>
+    <div class="absolute bottom-[30%] right-[10%] w-[350px] h-[350px] bg-[#FF6B00]/5 rounded-full blur-[100px]"></div>
+  </div>
+
+  <div class="max-w-md w-full glass p-8 sm:p-12 text-center relative z-10 space-y-6">
+    <div class="flex justify-center">
+      <!-- Icon Graphic -->
+      <div class="w-16 h-16 bg-[#FF6B00]/10 border border-[#FF6B00]/20 flex items-center justify-center text-[#FF6B00]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m15 9-6 6"></path>
+          <path d="m9 9 6 6"></path>
+          <circle cx="12" cy="12" r="10"></circle>
+        </svg>
+      </div>
+    </div>
+
+    <div class="space-y-2">
+      <h1 class="text-7xl sm:text-8xl font-heading tracking-wider text-glow text-[#FF6B00]">404</h1>
+      <h2 class="text-xl font-heading tracking-widest text-white uppercase">ROUTE OFFLINE</h2>
+      <p class="text-xs text-[#BDBDBD] font-light leading-relaxed">
+        The coordinate you are trying to access does not exist or has been relocated within our fitness database.
+      </p>
+    </div>
+
+    <div class="pt-4">
+      <a href="/" class="inline-block px-6 py-3 accent-gradient text-black font-semibold text-xs uppercase tracking-widest hover:scale-105 transition-transform duration-300">
+        Return to Gym
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

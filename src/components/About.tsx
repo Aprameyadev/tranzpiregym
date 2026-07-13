@@ -84,7 +84,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="text-[#BDBDBD] text-sm mt-4 font-light leading-relaxed max-w-2xl"
               >
-                We provide a luxurious, motivating environment crafted explicitly for high performers. At Tranzpire Gym, you are not just getting a gym membership — you are gaining entry to an elite fitness ecosystem.
+                Located in the heart of Sector 54, Gurugram, we provide a luxurious, motivating environment crafted explicitly for high performers. At Tranzpire Gym, recognized as the best gym in Gurugram, you are not just getting a gym membership — you are gaining entry to an elite fitness ecosystem.
               </motion.p>
             </div>
 

@@ -51,7 +51,7 @@ export default function Programs() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-[#BDBDBD] text-sm sm:text-base font-light leading-relaxed mt-4"
           >
-            Meticulously engineered training pathways designed to spark rapid muscular adaptation, shred excess body fat, and scale physical endurance.
+            Meticulously engineered training pathways and fitness classes in Gurugram designed to spark rapid muscular adaptation, shred excess body fat, and scale physical endurance.
           </motion.p>
         </div>
 
